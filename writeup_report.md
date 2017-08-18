@@ -25,7 +25,7 @@ This writeup is split into 4 parts:
 [image4]: ./camera_cal/calibration4.jpg
 [image5]: ./camera_cal/calibration5.jpg
 [image6]: ./camera_cal/calibration2.jpg
-[image7]: ./camera_cal/calibration2_undist.jpg
+[image7]: ./camera_cal/calibration2_undist.png
 [image8]: ./output_images/test2_undist.jpg
 [image9]: ./output_images/test2_mask.jpg
 
@@ -61,7 +61,6 @@ The obtained values are:
 
 I applied this distortion correction to one of the calibration image using openCV function `cv2.undistort` function and obtained this result: 
 
-![initial][image6]
 ![undistort][image7]
 
 We can see that the distortion correction performs well.
