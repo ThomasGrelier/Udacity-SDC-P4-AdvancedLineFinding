@@ -7,7 +7,7 @@ This repository contains the work I did within **Project #4 of Udacity's Self-Dr
 
 *An example of achieved lane detection*
 
-![](./test_images_videos/lane-drawn.jpg)
+![](./output_images/lane-drawn.jpg)
 
 
 ## Project objectives and steps
