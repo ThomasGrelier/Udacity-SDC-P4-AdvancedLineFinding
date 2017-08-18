@@ -159,9 +159,10 @@ On the figures below, we can see the positions of the windows on the mask for st
 Finally we fit a second order polynomial curve on the left and right lines. We are fitting along y-axis because lines are almost vertical and may have the same x-value for several y-values.
 
 __Second method: valid values are available__
+
 If in input we have 3 polynomial coefficients, which define the line position,  we can then search in a margin around the previous line position.
 On the figure below we plot the new area of search (for the curved lane image) using as input values the ones we found previously.
-![windows](./images/output_test2_fit2.jpg)
+![windows](./output_images/test2_fit2.jpg)
 
 It may happen, that only one of the two lines was correctly detected. The two lines are expected to be parallel, we can then using the avaible line to help for the search of the line. We just have to shift x-coordinate of the line by the approximate width of the lane.
 On the figure below, we plot the new area of search (for the curved lane image) using only the left line found before. 
