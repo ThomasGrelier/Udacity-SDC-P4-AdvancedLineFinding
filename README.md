@@ -1,8 +1,8 @@
-#**Advanced Lane Finding Project**
+# **Advanced Lane Finding Project**
 
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
-##Overview
+## Overview
 This repository contains the work I did within **Project #4 of Udacity's Self-Driving Car Nanodegree Program**. Objective of the project is to identify the lane boundaries in a video from a front-facing camera on a car.
 
 *An example of achieved lane detection*
@@ -10,7 +10,7 @@ This repository contains the work I did within **Project #4 of Udacity's Self-Dr
 ![](./test_images_videos/lane-drawn.jpg)
 
 
-##Project objectives and steps
+## Project objectives and steps
 
 The goals / steps of this project are the following:
 
@@ -25,7 +25,7 @@ The goals / steps of this project are the following:
 
 
 
-##Repository content
+## Repository content
 
 The repository includes the following files:
 
@@ -39,7 +39,7 @@ And two directories:
 * _/images_: images displayed in the report
 * _/videos_: videos of the detected lanes
 
-##Dependencies
+## Dependencies
 
 This lab requires the [CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit).
 

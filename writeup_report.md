@@ -48,12 +48,15 @@ Indeed we notice that for these pictures part of the chessboard is cropped. So f
 
 I then used the output `objpoints` and `imgpoints` to compute the camera calibration and distortion coefficients using openCV function `cv2.calibrateCamera` function.  
 The obtained values are:
+
 | Calibration |matrix|        |
 |:--------:|:-----:|:-------:|
 |1153.965|0.000|669.708|
 |0.000|1148.028|385.661|
 |0.000|0.000|1.000|
+
 **Distortion coefficients**:
+
 [-0.241, -0.053, -0.001, -0.000, 0.027]
 
 I applied this distortion correction to one of the calibration image using openCV function `cv2.undistort` function and obtained this result: 
