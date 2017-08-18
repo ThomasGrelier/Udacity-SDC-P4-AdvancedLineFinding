@@ -36,8 +36,8 @@ The repository includes the following files:
 
 And two directories:
 
-* _/images_: images displayed in the report
-* _/videos_: videos of the detected lanes
+* _/output\_images_: images displayed in the report
+* _/output\_videos_: videos of the detected lanes
 
 ## Dependencies
 
