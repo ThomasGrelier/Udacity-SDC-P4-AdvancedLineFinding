@@ -32,7 +32,7 @@ The repository includes the following files:
 * _image\_pipeline.ipynb_ : a jupyter notebook of the pipeline to process images
 * _video\_pipeline.ipynb_ : a jupyter notebook of the pipeline to process videos
 * _pipeline\_functions.py_ : functions called by the two previous pipelines
-* _writeup\_report.md_ : work writeup
+* _writeup.md_ : work writeup
 
 And two directories:
 
